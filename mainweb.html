@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialist Finder</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>Specialist Finder</h1>
+    </header>
+
+    <p style="color: white;">Log-out</p>
+    
+    <main>
+        <div class="health">
+            <section class="symptom-checker">
+                <h2>Symptom Checker</h2>
+                <form id="symptom-form">
+                    <label for="symptoms">Write your symptoms:</label><br>
+                    <textarea type="text" id="symptoms" placeholder="Symptoms you are facing:"></textarea>
+                    <button type="button" id="submit-symptoms">Find the disease</button>
+                </form>
+                <div id="results"></div>
+            </section>
+            <section class="specialist-directory">
+                <h2>Specialist Directory</h2>
+                <form id="search-form">
+                    <label for="search">Search for a specialist:</label>
+                    <input type="search" id="search" placeholder="Enter the disease">
+                    <button type="button" id="submit-search">Search</button>
+                </form>
+                <div id="specialists"></div>
+            </section>
+        </div>
+    </main>
+    <div class="tab">
+        <div class="table">
+            <h1 id="hea">LIVER</h1>
+        </div>
+        <div class="table">
+            <h1 id="hea">PANCREAS</h1>
+        </div>
+        <div class="table">
+            <a href="kid.html">
+                <h1 id="hea">KIDNEY</h1>
+            </a>
+        </div>
+    </div>
+    <div class="tab">
+        <div class="table">
+            <h1 id="hea">NERVES</h1>
+        </div>
+        <div class="table">
+            <h1 id="hea">HEART</h1>
+        </div>
+        <div class="table">
+            <h1 id="hea">BRAIN</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

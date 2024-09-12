@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 237, 241);
+}
+
+header {
+    background-color: #33c47c;
+    padding: 20px;
+    text-align: center;
+    animation: animateText 2s ease-in-out infinite;
+}
+
+/* Here is an example of how you can animate the text in the feedback box using CSS:
+
+
+.feedback-text {
+  animation: animateText 2s ease-in-out infinite;
+} */
+
+@keyframes animateText {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#symptom-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#symptoms {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#submit-symptoms {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-symptoms:hover {
+    background-color: #3e8e41;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#search {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#submit-search {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-search:hover {
+    background-color: #3e8e41;
+}
+
+#specialists {
+    margin-top: 20px;
+}
+
+#health{
+    display: flex;
+    
+}
+
+#navbar{
+    background-color: #d69915;
+    height:40px;
+    display: flex;
+    color: #23724a;
+    align-items: center;
+    display:flex;
+    justify-content: end;
+    width: 120%;
+}
+#navbar p{
+    display: inline;
+}
+
+.home{
+    text-align: start;
+    display: flex;
+}
+
+.table{
+    width: 800px;
+    height: 80px;
+    background-color:  #b5f1b8;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.tab{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+}
+
+#hea{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table:hover{
+    color:#c98a2c;
+}
+
+.health{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
